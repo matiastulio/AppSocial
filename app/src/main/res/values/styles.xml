@@ -21,4 +21,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TabActivity2" parent="Theme.Design.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+    </style>
+
 </resources>
