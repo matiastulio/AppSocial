@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/action_refresh"
+        custom:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="Refresh"
+        android:icon="@android:drawable/ic_menu_send"/>
+
+
+</menu>

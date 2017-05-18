@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Rota Solidária</string>
+
+
+    <!-- Array de perfis de usuario-->
+    <string-array name="perfil_array">
+        <item>Coordenador Geral</item>
+        <item>Coordenador de Sexta</item>
+        <item>Coordenador de Sábado</item>
+        <item>Coordenador de Roteiro</item>
+        <item>Voluntário</item>
+    </string-array>
+
+    <!-- ________________________________________________________________________________-->
+    <!-- Array de string do fragment planejar-->
+    <string-array name="planejar_fragment_array_string">
+        <item>Escala</item>
+        <item>Isopor</item>
+        <!--<item>Cardápio</item1>-->
+        <item>Enviar Aviso</item>
+        <item>Visualizar roteiros</item>
+    </string-array>
+
+    <!-- Array de icones de planejar -->
+    <array name="planejar_fragment_array_ic">
+        <item>@drawable/ic_date_range_black_24px</item>
+        <item>@drawable/ic_kitchen_black_24px</item>
+        <!--<item>@drawable/ic_food</item>-->
+        <item>@drawable/ic_comment</item>
+        <item>@drawable/ic_map_marker_multiple</item>
+    </array>
+    <!-- ________________________________________________________________-->
+    <!-- Array de string do fragment roteiro-->
+    <string-array name="roteiro_fragment_array_string">
+        <!-- <item>Quentinhas</item>-->
+        <item>Escala</item>
+        <item>Montar roteiro</item>
+        <item>Visualizar roteiros</item>
+    </string-array>
+
+    <!-- Array de icones do roteiro-->
+    <array name="roteiro_fragment_array_ic">
+        <!--<item>@drawable/ic_pot__1_</item>-->
+        <item>@drawable/ic_date_range_black_24px</item>
+        <item>@drawable/ic_map_marker_plus</item>
+        <item>@drawable/ic_map_marker_multiple</item>
+    </array>
+
+    <!-- ________________________________________________________________-->
+    <!-- Array de string do fragment sexta-->
+    <string-array name="sexta_fragment_array_string">
+        <item>Visualizar roteiros</item>
+        <item>Cadastro dos assistidos</item>
+        <item>Harmonização</item>
+    </string-array>
+
+    <!-- Array de icones de sexta feira -->
+    <array name="sexta_fragment_array_ic">
+        <item>@drawable/ic_map_marker_multiple</item>
+        <item>@drawable/ic_file_chart</item>
+        <item>@drawable/ic_checkbox_marked_outline</item>
+    </array>
+
+    <!-- ________________________________________________________________-->
+    <!-- Array de string do fragment sabado-->
+    <string-array name="sabado_fragment_array_string">
+        <item>Escala</item>
+        <item>Cadastro dos assistidos</item>
+    </string-array>
+    <!-- Array de icones de sabado -->
+    <array name="sabado_fragment_array_ic">
+        <item>@drawable/ic_date_range_black_24px</item>
+        <item>@drawable/ic_file_chart</item>
+    </array>
+
+    <!-- ___________________________________________________________________________________-->
+    <!-- Array de string do hamburger voluntarios-->
+    <string-array name="voluntarios_hamburger_array_string">
+        <item>Escala</item>
+        <item>Contratos</item>
+        <item>Kits</item>
+        <item>Voluntários por roteiro</item>
+    </string-array>
+
+    <!-- ________________________________________________________________-->
+    <!-- Array de string do hamburger operacional-->
+    <string-array name="operacional_hamburger_array_string">
+        <item>Harmonização</item>
+        <item>Montar roteiro</item>
+        <item>Visualizar roteiros</item>
+        <item>Enviar aviso</item>
+    </string-array>
+
+    <!-- ________________________________________________________________-->
+    <!-- Array de string do hamburger informacional-->
+    <string-array name="informacional_hamburguer_array_string">
+        <item>Cadastro dos assistidos</item>
+        <item>Observações semanais</item>
+        <item>Histórico de registros</item>
+        <item>Cardápio</item>
+        <item>Quentinhas</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="planejar_aviso_edt_txt_msg">Digite aqui a sua mensagem.</string>
+</resources>

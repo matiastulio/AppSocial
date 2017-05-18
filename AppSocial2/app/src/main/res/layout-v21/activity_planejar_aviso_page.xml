@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="grad.unb.br.appsocial.activities.AvisoPlanejarPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAvisoPlanejar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:background="?attr/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="7dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Enviar Para"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/spinner"
+                android:textAlignment="center"
+                android:entries="@array/perfil_array"/>
+
+        </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardElevation="7dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="1dp">
+
+                <EditText
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText"
+                    android:gravity="top|left"
+                    android:background="@android:color/white"
+                    android:hint="@string/planejar_aviso_edt_txt_msg"/>
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_drawer_voluntarios"
+          android:title="Voluntarios"
+          android:icon="@drawable/ic_human_greeting">
+        <menu app:showAsAction="collapseActionView">
+            <group android:checkableBehavior="single">
+                <item android:title="Escala"/>
+                <item android:title="Contratos"/>
+                <item android:title="Kits"/>
+                <item android:title="Voluntários por roteiro"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/menu_drawer_operacional"
+          android:title="Operacional"
+          android:icon="@drawable/account_settings_variant">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Harmonização"/>
+                <item android:title="Montar roteiro"/>
+                <item android:title="Visualizar roteiros"/>
+                <item android:title="Enviar aviso"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/menu_drawer_informacional"
+          android:title="Informacional"
+          android:icon="@drawable/information_variant">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Cadastro dos assistidos"/>
+                <item android:title="Observações semanais"/>
+                <item android:title="Histórico de registros"/>
+                <item android:title="Cardápio"/>
+                <item android:title="Quentinhas"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

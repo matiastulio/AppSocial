@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        custom:showAsAction="always"
+        android:title="Refresh"
+        android:icon="@drawable/ic_notifications_black_24px"/>
+
+
+</menu>
