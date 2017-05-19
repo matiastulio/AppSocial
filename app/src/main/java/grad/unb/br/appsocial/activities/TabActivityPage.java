@@ -17,9 +17,8 @@ import android.content.res.Configuration;
 
 import grad.unb.br.appsocial.R;
 import grad.unb.br.appsocial.activities.fragments.PlanejarFragment;
-import grad.unb.br.appsocial.activities.fragments.RoteiroFragment;
-import grad.unb.br.appsocial.activities.fragments.SabadoFragment;
-import grad.unb.br.appsocial.activities.fragments.SextaFragment;
+import grad.unb.br.appsocial.activities.fragments.FAssisFragment;
+import grad.unb.br.appsocial.activities.fragments.CaravanaFragment;
 import grad.unb.br.appsocial.controllers.ViewPagerAdapter;
 
 public class TabActivityPage extends AppCompatActivity implements FloatingActionButton.OnClickListener {
@@ -68,8 +67,8 @@ public class TabActivityPage extends AppCompatActivity implements FloatingAction
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new PlanejarFragment(),"Planejar");
         //adapter.addFragment(new RoteiroFragment(),"Roteiro");
-        adapter.addFragment(new SextaFragment(),"Caravana");
-        adapter.addFragment(new SabadoFragment(),"F.Assis");
+        adapter.addFragment(new CaravanaFragment(),"Caravana");
+        adapter.addFragment(new FAssisFragment(),"F.Assis");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

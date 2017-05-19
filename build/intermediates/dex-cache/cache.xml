@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_5071187c7d796d932ea4f0d2c3f8efe91d38da94\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_d7d3362b082b780b9d7ddedf0064c21598ac984a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_12d855265c408cdb7468cf71f95612d8437c1578\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_caf14dc57c56ad537307d4170289bd139c102348\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_6252880d3ac9c0efac702d5aceb5ab6078f4607a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_93328d8812a26065b4e98d6824dd596a906c1c30\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_a6bdbd71fbf9b1b023b0820ac93b2738cc4d76d0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_5e28a1d0a1b8fcfc4358894c8f5409f16bd573a5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_928cdca37688909d41090ab27a5e81ba72482bc9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_43e8940a0f99abc5471aba76a6792fcf81a7278d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_9068edef37dd12d2deb77582252498aeac2a4ccf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_e4969d1ca4019e14ceb5ac46f7291d5e4c0a5a01\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_d6b48eb775bf3eb33d6a43ccc0b708bed77735c4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_056eb7980722dae9164fddea81a1011322a35f2f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_99cd25f20843e40ac3158d2bcffb7aa0eb2f16b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_17b6ef8f949021fd881593e8c56548de481ea48f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.1_87abb61163c75aedb0caec9f00378ef08361b4e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_a06e7dd90abc180be5caa24f23fcf4223ed27dbf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_d599632c1ca9813dc15e17cf3d5bdcbbe992633d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_9c447cbbffb94f3577ff0e673e0e976298d93909\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_079c53aa8920e2e9059574ce191fa1b5075482a4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_37afc605d7ca7d2b0b60f570645ab1f36f47fa11\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4ecfb0e244a5f5d14d1f06e1fb62239947ec51e3">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c9319c357b4fefeaabc678cde76f578874f3fe94\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_0dc73c4e603269a3ed56ff338e046c68451daef1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_8b9498be7e25be92e33fcb402e4b5f70c56af90e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_47b775046c79b752581af086488b8d67d07b372d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_0852e11faee4dba38f4314f8e2765ff90f36b9e5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_2712a8d72caa5a30d4dd5a1958e245697edfc2c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_f372ca0dee1c806561783ac9fe5acc69c7322371\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_07922482039469d2a2e4d40a92ef1a8303e453b7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0792007044ac9608c69486a458b10689eaf39443">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3507604123f2ab2aa113f7db21d2aca35dfe98a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_f7d5a6c14932e70c1455e1ad1809da4f87fb8184\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_e578120e400e73c9c951c6efc8dfb9fce5ea1d3b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_6bc06f21d5a730970376c85bf11518154d96461d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_279a76a9a6296688fa0ae8d036b0ac631e81ee20\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_fd59035402a18b69dfa8ab8cd47bb03c9334ac13\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_f6b7c71b093259b2a7f820c06621fb321e24bab7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_5a6a1677f51fa8eef86030dc3ad88cfc37dea5e8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_905a9cf6d6689eef90429c2bb84ac17e67255ade\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_1cb19e2d183130853ca72cd358d0417bac0eae80\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_fea575230baa6eef8905e57c5dd72e901927560d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_88f43c4354f9462e3f2e5a2d98746081668635de\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_b918e0e0672294f7c733bf466f8c8e9bec6c0c98\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_5e4d3795a969205a374d8bbff59b11009f7653c2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_858b2439540170aa2231e7c875e2c71e2209c864\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_726941b5c8b4106d67e2ecadb733bd6d173e4a49\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_cdf49dac73efaca3187dfd30e8ef703a908a9d42\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_c520c1a08c092fd2827a99e3dbc97408434fa06e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_42cca3ac35a2e9506359791b86fc2315482387ba\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_b786ef6598de715e8ead5232fe0af129c64db65d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_660cab5745b4c2c489843ff567e6bb1da1cfa25b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_fa77f134e6bacbe3cfff005c427a999fd2453bf8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_17746343f513df02d7ad6e66bc51c9c2d0ae0843\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_68524c3a8695da392fa32eea13d633f77aec8897\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_80511f601918ff2657e59840d8d6e9a981df5362\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_9740ae5608fbbbcb7f2115199c14bde3be59dfd0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_d1b860f308cac14ef1438e5612ec11a2ab8e073e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_e4793d79f2e3eab61a694d765fce7de6ec4173c4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_4e0eeb4dcd58e0499adeb2e53ed34cc6e5ed44e2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_43cd516eaab3044a61bb1fc23ec4334c99f8178f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_24629c04b5e40a0e30628b9a5550a1f06c6182ea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Tulio\Documents\GitHub\AppSocial\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_bd78901685d6a3e86733286d5d92816ecbeaebb2\classes.dex" />
+    </item>
+
+</items>

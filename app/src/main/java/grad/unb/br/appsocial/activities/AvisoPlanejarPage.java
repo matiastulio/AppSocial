@@ -11,7 +11,6 @@ import grad.unb.br.appsocial.R;
 public class AvisoPlanejarPage extends AppCompatActivity {
 
     private Toolbar toolbar;
-    private Spinner spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

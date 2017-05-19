@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import grad.unb.br.appsocial.R;
 import grad.unb.br.appsocial.activities.AvisoPlanejarPage;
+import grad.unb.br.appsocial.activities.EscalaPlanejar;
+import grad.unb.br.appsocial.activities.MapsActivity;
 import grad.unb.br.appsocial.activities.SortPeopleListPage;
 import grad.unb.br.appsocial.controllers.ListAdapterTabPage;
 
@@ -66,10 +68,14 @@ public class PlanejarFragment extends Fragment implements ListView.OnItemClickLi
                 getActivity().startActivity(saida);
                 break;
             case "Escala":
+                saida = new Intent(getActivity(), EscalaPlanejar.class);
+                getActivity().startActivity(saida);
                 break;
-            case "Kits":
+            case "Isopor":
                 break;
-            case"Cardápio":
+            case"Visualizar roteiros":
+                saida = new Intent(getActivity(),MapsActivity.class);
+                getActivity().startActivity(saida);
                 break;
             default:
                 break;

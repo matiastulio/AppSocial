@@ -11,7 +11,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".activities.LoginPage"
             android:screenOrientation="portrait"
@@ -23,33 +22,33 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".activities.CadastroPage"
-            android:screenOrientation="portrait"
-            android:theme="@style/startPageTheme" />
-
-        <activity
-            android:name=".activities.TabActivityPage"
-            android:screenOrientation="portrait"
-            android:theme="@style/TabActivity" />
-        <activity android:name=".activities.SortPeopleListPage" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
-        <activity
-            android:name=".activities.MapsActivity"
-            android:label="@string/title_activity_maps" />
-
-        <uses-library android:name="com.google.android.maps" />
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".activities.AvisoPlanejarPage"
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".activities.CadastroPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/startPageTheme" />
+        <activity
+            android:name=".activities.TabActivityPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/TabActivity" />
+        <activity
+            android:name=".activities.SortPeopleListPage"
+            android:theme="@style/startPageTheme" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".activities.AvisoPlanejarPage"
             android:theme="@style/TabActivity2" />
+        <activity android:name=".activities.EscalaPlanejar"></activity>
     </application>
 
 </manifest>
