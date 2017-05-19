@@ -14,10 +14,16 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         android:background="?attr/colorPrimary"/>
 
+<!--         primeira linha                -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="coordenadorSexta">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -28,20 +34,175 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Teste"/>
+                android:text="Coordenador de Sexta"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Teste2"/>
+                android:textStyle="bold"
+                android:id="@+id/escala_planejar_l1"
+                android:text="Convidar"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/fab_btn"
+            android:id="@+id/ic_escala_planejar_l1"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@android:drawable/ic_menu_send"
+            android:src="@drawable/checkbox_blank_circle_outline"
             android:layout_weight="1"/>
 
     </LinearLayout>
 
+
+    <!--         segunda linha                -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="coordenadorRoteiro1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="100">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coordenador de Roteiro 1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/escala_planejar_l2"
+                android:text="Gabriela"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ic_escala_planejar_l2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/checkbox_marked_circle_outline"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!--         terceira linha                -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="coordenadorRoteiro2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="100">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coordenador de Roteiro 2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/escala_planejar_l3"
+                android:text="Manoel"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ic_escala_planejar_l3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/checkbox_blank_circle_outline"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!--         quarta linha                -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="voluntariosSexta">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="100">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voluntários de Sexta"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/escala_planejar_l4"
+                android:text="Recomendar"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ic_escala_planejar_l4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_email_outline"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <!--         quinta linha                -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="responsavelHarmonizacao">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="100">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Responsável pela Harmonização"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/escala_planejar_l5"
+                android:text="João"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ic_escala_planejar_l5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/checkbox_marked_circle_outline"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 </LinearLayout>

@@ -41,14 +41,17 @@
             android:theme="@style/TabActivity" />
         <activity
             android:name=".activities.SortPeopleListPage"
-            android:theme="@style/startPageTheme" />
+            android:theme="@style/TabActivity2" />
         <activity
             android:name=".activities.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".activities.AvisoPlanejarPage"
             android:theme="@style/TabActivity2" />
-        <activity android:name=".activities.EscalaPlanejar"></activity>
+
+        <activity
+            android:name=".activities.EscalaPlanejar"
+            android:theme="@style/TabActivity2"/>
     </application>
 
 </manifest>

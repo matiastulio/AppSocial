@@ -1,18 +1,21 @@
 package grad.unb.br.appsocial.activities;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
 
 import java.util.Calendar;
-import java.util.Date;
 
 import grad.unb.br.appsocial.R;
 
 public class EscalaPlanejar extends AppCompatActivity {
 
     private Toolbar toolbar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,9 +58,75 @@ public class EscalaPlanejar extends AppCompatActivity {
         return s;
     }
 
+    public void coordenadorSexta(View v){
+        Intent intent = new Intent(this,SortPeopleListPage.class);
+        intent.putExtra("retorno",true);
+        intent.putExtra("itemSelecionado",1);
+        startActivityForResult(intent, 1);
+
+    }
+    public void coordenadorRoteiro1(View v){
+
+    }
+    public void coordenadorRoteiro2(View v){
+
+    }
+    public void voluntariosSexta(View v){
+
+    }
+    public void responsavelHarmonizacao(View v){
+
+    }
+
+    private void retornoIntent(Intent data){
+        String resultado = data.getStringExtra("resultado");
+        int opcaoSelecionada = data.getIntExtra("itemSelecionado",-1);
+        TextView v;
+        switch (opcaoSelecionada){
+            case 1:
+                v = (TextView) findViewById(R.id.escala_planejar_l1);
+                v.setText(resultado);
+                break;
+            case 2:
+                v = (TextView) findViewById(R.id.escala_planejar_l1);
+                v.setText(resultado);
+                break;
+            case 3:
+                v = (TextView) findViewById(R.id.escala_planejar_l1);
+                v.setText(resultado);
+                break;
+            case 4:
+                v = (TextView) findViewById(R.id.escala_planejar_l1);
+                v.setText(resultado);
+                break;
+            case 5:
+                v = (TextView) findViewById(R.id.escala_planejar_l1);
+                v.setText(resultado);
+                break;
+            default:
+                break;
+        }
+        toolbar.setTitle(resultado);
+    }
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+            getMenuInflater().inflate(R.menu.escala_planejar_toolbar,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == 1) {
+            if(resultCode == Activity.RESULT_OK){
+                retornoIntent(data);
+            }
+            if (resultCode == Activity.RESULT_CANCELED) {
+            }
+        }
     }
 }
