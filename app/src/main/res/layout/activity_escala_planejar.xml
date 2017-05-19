@@ -23,7 +23,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="coordenadorSexta">
+        android:onClick="chamaSortPeople"
+        android:id="@+id/escala_planejar_LL1">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:id="@+id/escala_planejar_l1"
-                android:text="Convidar"/>
+                android:text="Indicar"/>
 
         </LinearLayout>
         <ImageView
@@ -63,7 +64,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="coordenadorRoteiro1">
+        android:onClick="chamaSortPeople"
+        android:id="@+id/escala_planejar_LL2">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -101,7 +103,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="coordenadorRoteiro2">
+        android:onClick="chamaSortPeople"
+        android:id="@+id/escala_planejar_LL3">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -140,7 +143,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="voluntariosSexta">
+        android:onClick="chamaSortPeople"
+        android:id="@+id/escala_planejar_LL4">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -157,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:id="@+id/escala_planejar_l4"
-                android:text="Recomendar"/>
+                android:text="Visualizar"/>
 
         </LinearLayout>
         <ImageView
@@ -177,7 +181,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="responsavelHarmonizacao">
+        android:onClick="chamaSortPeople"
+        android:id="@+id/escala_planejar_LL5">
 
         <LinearLayout
             android:layout_width="wrap_content"

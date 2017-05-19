@@ -27,6 +27,7 @@ public class SortPeopleListPage extends AppCompatActivity {
     private boolean retorno = false;
     private String retornoString = "";
     private int itemSelecionado = -1;
+    private int idDaView=-1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +38,12 @@ public class SortPeopleListPage extends AppCompatActivity {
         if (extras != null) {
             retorno = extras.getBoolean("retorno");
             itemSelecionado = extras.getInt("itemSelecionado");
+            idDaView = extras.getInt("idDaView");
         }
 
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_sort_people_list_view);
-        toolbar.setTitle("Escolha");
+        toolbar.setTitle(String.valueOf(idDaView));
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -71,7 +73,8 @@ public class SortPeopleListPage extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 retornoString = peoples.get(position);
-                toolbar.setTitle(retornoString);
+                if(retorno)
+                    toolbar.setTitle(retornoString);
             }
         });
 
@@ -99,7 +102,7 @@ public class SortPeopleListPage extends AppCompatActivity {
             if(retorno){
                 Intent returnIntent = new Intent();
                 returnIntent.putExtra("resultado",retornoString);
-                returnIntent.putExtra("itemSelecionado",itemSelecionado);
+                returnIntent.putExtra("idDaView",idDaView);
                 setResult(Activity.RESULT_OK,returnIntent);
                 finish();
 

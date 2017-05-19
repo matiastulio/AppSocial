@@ -48,10 +48,12 @@
         <activity
             android:name=".activities.AvisoPlanejarPage"
             android:theme="@style/TabActivity2" />
-
         <activity
             android:name=".activities.EscalaPlanejar"
-            android:theme="@style/TabActivity2"/>
+            android:theme="@style/TabActivity2" />
+        <activity
+            android:name=".activities.CalendarViewPage"
+            android:theme="@style/TabActivity2" />
     </application>
 
 </manifest>

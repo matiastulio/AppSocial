@@ -58,49 +58,37 @@ public class EscalaPlanejar extends AppCompatActivity {
         return s;
     }
 
-    public void coordenadorSexta(View v){
+    public void chamaSortPeople(View v){
         Intent intent = new Intent(this,SortPeopleListPage.class);
         intent.putExtra("retorno",true);
-        intent.putExtra("itemSelecionado",1);
+        intent.putExtra("idDaView",v.getId());
         startActivityForResult(intent, 1);
-
-    }
-    public void coordenadorRoteiro1(View v){
-
-    }
-    public void coordenadorRoteiro2(View v){
-
-    }
-    public void voluntariosSexta(View v){
-
-    }
-    public void responsavelHarmonizacao(View v){
 
     }
 
     private void retornoIntent(Intent data){
         String resultado = data.getStringExtra("resultado");
-        int opcaoSelecionada = data.getIntExtra("itemSelecionado",-1);
+        int idDaView = data.getIntExtra("idDaView",-1);
         TextView v;
-        switch (opcaoSelecionada){
-            case 1:
+        switch (idDaView){
+            case R.id.escala_planejar_LL1:
                 v = (TextView) findViewById(R.id.escala_planejar_l1);
                 v.setText(resultado);
                 break;
-            case 2:
-                v = (TextView) findViewById(R.id.escala_planejar_l1);
+            case R.id.escala_planejar_LL2:
+                v = (TextView) findViewById(R.id.escala_planejar_l2);
                 v.setText(resultado);
                 break;
-            case 3:
-                v = (TextView) findViewById(R.id.escala_planejar_l1);
+            case R.id.escala_planejar_LL3:
+                v = (TextView) findViewById(R.id.escala_planejar_l3);
                 v.setText(resultado);
                 break;
-            case 4:
-                v = (TextView) findViewById(R.id.escala_planejar_l1);
+            case R.id.escala_planejar_LL4:
+                v = (TextView) findViewById(R.id.escala_planejar_l4);
                 v.setText(resultado);
                 break;
-            case 5:
-                v = (TextView) findViewById(R.id.escala_planejar_l1);
+            case R.id.escala_planejar_LL5:
+                v = (TextView) findViewById(R.id.escala_planejar_l5);
                 v.setText(resultado);
                 break;
             default:

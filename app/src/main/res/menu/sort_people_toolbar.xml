@@ -8,6 +8,6 @@
         custom:showAsAction="always"
         android:orderInCategory="2"
         android:title="Refresh"
-        android:icon="@drawable/checkbox_marked_outline"/>
+        android:icon="@drawable/ic_check"/>
 
 </menu>
