@@ -12,6 +12,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import grad.unb.br.appsocial.R;
+import grad.unb.br.appsocial.activities.EscalaSabado;
+import grad.unb.br.appsocial.activities.GenericCardViewPage;
 import grad.unb.br.appsocial.activities.SortPeopleListPage;
 import grad.unb.br.appsocial.controllers.ListAdapterTabPage;
 
@@ -53,6 +55,8 @@ public class FAssisFragment extends Fragment implements ListView.OnItemClickList
         Intent saida;
         switch (sabadoStrings[position]){
             case "Escala":
+                saida = new Intent(getActivity(),EscalaSabado.class);
+                getActivity().startActivity(saida);
                 break;
             case "Cadastro dos assistidos":
                 saida = new Intent(getActivity(),SortPeopleListPage.class);

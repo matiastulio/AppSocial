@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.EscalaPlanejar"
+    tools:context=".activities.EscalaSexta"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_escala_planejar"
+        android:id="@+id/toolbar_escala_sexta"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:elevation="4dp"
@@ -24,7 +24,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_planejar_LL1">
+        android:id="@+id/escala_sexta_LL1">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,12 +40,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:id="@+id/escala_planejar_l1"
+                android:id="@+id/escala_sexta_l1"
                 android:text="Indicar"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/ic_escala_planejar_l1"
+            android:id="@+id/ic_escala_sexta_l1"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/checkbox_blank_circle_outline"
@@ -65,7 +65,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_planejar_LL2">
+        android:id="@+id/escala_sexta_LL2">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -81,12 +81,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:id="@+id/escala_planejar_l2"
+                android:id="@+id/escala_sexta_l2"
                 android:text="Gabriela"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/ic_escala_planejar_l2"
+            android:id="@+id/ic_escala_sexta_l2"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/checkbox_marked_circle_outline"
@@ -104,7 +104,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_planejar_LL3">
+        android:id="@+id/escala_sexta_LL3">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -120,12 +120,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:id="@+id/escala_planejar_l3"
+                android:id="@+id/escala_sexta_l3"
                 android:text="Manoel"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/ic_escala_planejar_l3"
+            android:id="@+id/ic_escala_sexta_l3"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/checkbox_blank_circle_outline"
@@ -144,7 +144,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_planejar_LL4">
+        android:id="@+id/escala_sexta_LL4">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -160,12 +160,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:id="@+id/escala_planejar_l4"
+                android:id="@+id/escala_sexta_l4"
                 android:text="Visualizar"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/ic_escala_planejar_l4"
+            android:id="@+id/ic_escala_sexta_l4"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_email_outline"
@@ -182,7 +182,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_planejar_LL5">
+        android:id="@+id/escala_sexta_LL5">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -198,12 +198,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:id="@+id/escala_planejar_l5"
+                android:id="@+id/escala_sexta_l5"
                 android:text="João"/>
 
         </LinearLayout>
         <ImageView
-            android:id="@+id/ic_escala_planejar_l5"
+            android:id="@+id/ic_escala_sexta_l5"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/checkbox_marked_circle_outline"

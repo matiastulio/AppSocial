@@ -49,10 +49,16 @@
             android:name=".activities.AvisoPlanejarPage"
             android:theme="@style/TabActivity2" />
         <activity
-            android:name=".activities.EscalaPlanejar"
+            android:name=".activities.EscalaSexta"
             android:theme="@style/TabActivity2" />
         <activity
             android:name=".activities.CalendarViewPage"
+            android:theme="@style/TabActivity2" />
+        <activity
+            android:name=".activities.GenericCardViewPage"
+            android:theme="@style/TabActivity2" />
+        <activity
+            android:name=".activities.EscalaSabado"
             android:theme="@style/TabActivity2" />
     </application>
 

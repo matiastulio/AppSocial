@@ -13,16 +13,16 @@ import java.util.Calendar;
 
 import grad.unb.br.appsocial.R;
 
-public class EscalaPlanejar extends AppCompatActivity {
+public class EscalaSexta extends AppCompatActivity {
 
     private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_escala_planejar);
+        setContentView(R.layout.activity_escala_sexta);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar_escala_planejar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_escala_sexta);
         toolbar.setTitle(setupTitle());
         setSupportActionBar(toolbar);
 
@@ -71,24 +71,24 @@ public class EscalaPlanejar extends AppCompatActivity {
         int idDaView = data.getIntExtra("idDaView",-1);
         TextView v;
         switch (idDaView){
-            case R.id.escala_planejar_LL1:
-                v = (TextView) findViewById(R.id.escala_planejar_l1);
+            case R.id.escala_sexta_LL1:
+                v = (TextView) findViewById(R.id.escala_sexta_l1);
                 v.setText(resultado);
                 break;
-            case R.id.escala_planejar_LL2:
-                v = (TextView) findViewById(R.id.escala_planejar_l2);
+            case R.id.escala_sexta_LL2:
+                v = (TextView) findViewById(R.id.escala_sexta_l2);
                 v.setText(resultado);
                 break;
-            case R.id.escala_planejar_LL3:
-                v = (TextView) findViewById(R.id.escala_planejar_l3);
+            case R.id.escala_sexta_LL3:
+                v = (TextView) findViewById(R.id.escala_sexta_l3);
                 v.setText(resultado);
                 break;
-            case R.id.escala_planejar_LL4:
-                v = (TextView) findViewById(R.id.escala_planejar_l4);
+            case R.id.escala_sexta_LL4:
+                v = (TextView) findViewById(R.id.escala_sexta_l4);
                 v.setText(resultado);
                 break;
-            case R.id.escala_planejar_LL5:
-                v = (TextView) findViewById(R.id.escala_planejar_l5);
+            case R.id.escala_sexta_LL5:
+                v = (TextView) findViewById(R.id.escala_sexta_l5);
                 v.setText(resultado);
                 break;
             default:
@@ -103,7 +103,7 @@ public class EscalaPlanejar extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-            getMenuInflater().inflate(R.menu.escala_planejar_toolbar,menu);
+            getMenuInflater().inflate(R.menu.escala_sexta_toolbar,menu);
         return super.onCreateOptionsMenu(menu);
     }
 
