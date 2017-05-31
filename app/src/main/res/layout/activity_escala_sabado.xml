@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.EscalaSexta">
+    tools:context=".activities.EscalaSabado">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_escala_sabado"
@@ -46,7 +46,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Coordenador de Sexta" />
+                        android:text="Estudo" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l1"
@@ -90,7 +90,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Coordenador de Roteiro 1" />
+                        android:text="Portaria" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l2"
@@ -132,7 +132,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Coordenador de Roteiro 2" />
+                        android:text="Preparo do Passe" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l3"
@@ -175,7 +175,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Voluntários de Sexta" />
+                        android:text="Prece Final" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l4"
@@ -216,7 +216,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Rouparia" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l5"
@@ -256,7 +256,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Banho Masculino" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l6"
@@ -296,7 +296,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Banho Feminino" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l7"
@@ -336,7 +336,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Fluidificação da Água" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l8"
@@ -376,7 +376,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Salão" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l9"
@@ -416,7 +416,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Corte de Cabelo" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l10"
@@ -456,7 +456,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Esquina" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l11"
@@ -496,7 +496,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Responsável pela Harmonização" />
+                        android:text="Atendimento Médico" />
 
                     <TextView
                         android:id="@+id/escala_sabado_l12"
@@ -515,6 +515,86 @@
                     android:src="@drawable/checkbox_marked_circle_outline" />
             </LinearLayout>
 
+            <!--         13 linha                -->
+            <LinearLayout
+                android:id="@+id/escala_sabado_LL13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="chamaSortPeople"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_weight="100"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cadastro" />
+
+                    <TextView
+                        android:id="@+id/escala_sabado_l13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="João"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ic_escala_sabado_l13"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/checkbox_marked_circle_outline" />
+            </LinearLayout>
+            <!--         14 linha                -->
+            <LinearLayout
+                android:id="@+id/escala_sabado_LL14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="chamaSortPeople"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_weight="100"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coral" />
+
+                    <TextView
+                        android:id="@+id/escala_sabado_l14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="João"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ic_escala_sabado_l14"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/checkbox_marked_circle_outline" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

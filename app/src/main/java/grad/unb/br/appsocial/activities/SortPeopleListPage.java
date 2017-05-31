@@ -1,6 +1,7 @@
 package grad.unb.br.appsocial.activities;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ public class SortPeopleListPage extends AppCompatActivity {
     private String retornoString = "";
     private int itemSelecionado = -1;
     private int idDaView=-1;
+    private Context contexto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +45,7 @@ public class SortPeopleListPage extends AppCompatActivity {
 
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_sort_people_list_view);
-        toolbar.setTitle(String.valueOf(idDaView));
+        //toolbar.setTitle(String.valueOf(idDaView));
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -78,6 +80,8 @@ public class SortPeopleListPage extends AppCompatActivity {
             }
         });
 
+        contexto = this;
+
     }
 
 
@@ -85,6 +89,8 @@ public class SortPeopleListPage extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         if(retorno)
             getMenuInflater().inflate(R.menu.sort_people_toolbar,menu);
+        else
+            getMenuInflater().inflate(R.menu.generic_cardview_toolbar,menu);
         return super.onCreateOptionsMenu(menu);
     }
     @Override
@@ -107,8 +113,17 @@ public class SortPeopleListPage extends AppCompatActivity {
                 finish();
 
             }
+        }else if(item.getItemId() == R.id.action_add_people){
+            chamaActivity();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    private void chamaActivity(){
+        Intent saida = new Intent(contexto,CadastroAssistidoPage.class);
+        contexto.startActivity(saida);
+
     }
 }

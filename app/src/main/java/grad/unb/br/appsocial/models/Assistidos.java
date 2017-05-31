@@ -4,13 +4,18 @@ package grad.unb.br.appsocial.models;
 import java.sql.Date;
 
 public class Assistidos {
+    private int     _id;
+    private char    _sexo;
     private String  _nome;
     private String  _relPablo;
     private String  _observacao;
+    private String  _assMedica;
+    private String  _assSocial;
     private Date    _data;
     private int     _tmCalcado;
     private int     _tmCamisa;
     private int     _tmCalca;
+    private int     _idade;
 
 
     public String get_nome() { return _nome;}
@@ -40,4 +45,18 @@ public class Assistidos {
     public int get_tmCalca() { return _tmCalca;}
     public void set_tmCalca(int _tmCalca) {this._tmCalca = _tmCalca;}
 
+    public int get_id() { return _id;  }
+    public void set_id(int _id) {    this._id = _id;}
+
+    public char get_sexo() {        return _sexo;}
+    public void set_sexo(char _sexo) {        this._sexo = _sexo;}
+
+    public String get_assMedica() {        return _assMedica;}
+    public void set_assMedica(String _assMedica) {        this._assMedica = _assMedica;}
+
+    public String get_assSocial() {        return _assSocial;}
+    public void set_assSocial(String _assSocial) {        this._assSocial = _assSocial;}
+
+    public int get_idade() {        return _idade;}
+    public void set_idade(int _idade) {        this._idade = _idade;}
 }

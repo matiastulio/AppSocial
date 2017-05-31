@@ -40,37 +40,52 @@ public class EscalaSexta extends AppCompatActivity {
         String s;
         int aux = c.get(Calendar.WEEK_OF_YEAR);
 
-        aux*=7;
-        c.set(Calendar.DAY_OF_YEAR,aux);
+        aux *= 7;
+        c.set(Calendar.DAY_OF_YEAR, aux);
         i = c.get(Calendar.DAY_OF_WEEK);
 //        s= c.get(Calendar.DAY_OF_WEEK)+", "+ i +"/"+c.get(Calendar.MONTH)+"/"+c.get(Calendar.YEAR);
 
-        switch (i){
-            case 0: s = "Domingo"; break;
-            case 1: s = "Segunda"; break;
-            case 2: s = "Terça";   break;
-            case 3: s = "Quarta";  break;
-            case 4: s = "Quinta";  break;
-            case 5: s = "Sexta";   break;
-            case 6: s = "Sabado";  break;
-            default:s = "";
+        switch (i) {
+            case 0:
+                s = "Domingo";
+                break;
+            case 1:
+                s = "Segunda";
+                break;
+            case 2:
+                s = "Terça";
+                break;
+            case 3:
+                s = "Quarta";
+                break;
+            case 4:
+                s = "Quinta";
+                break;
+            case 5:
+                s = "Sexta";
+                break;
+            case 6:
+                s = "Sabado";
+                break;
+            default:
+                s = "";
         }
         return s;
     }
 
-    public void chamaSortPeople(View v){
-        Intent intent = new Intent(this,SortPeopleListPage.class);
-        intent.putExtra("retorno",true);
-        intent.putExtra("idDaView",v.getId());
+    public void chamaSortPeople(View v) {
+        Intent intent = new Intent(this, SortPeopleListPage.class);
+        intent.putExtra("retorno", true);
+        intent.putExtra("idDaView", v.getId());
         startActivityForResult(intent, 1);
 
     }
 
-    private void retornoIntent(Intent data){
+    private void retornoIntent(Intent data) {
         String resultado = data.getStringExtra("resultado");
-        int idDaView = data.getIntExtra("idDaView",-1);
+        int idDaView = data.getIntExtra("idDaView", -1);
         TextView v;
-        switch (idDaView){
+        switch (idDaView) {
             case R.id.escala_sexta_LL1:
                 v = (TextView) findViewById(R.id.escala_sexta_l1);
                 v.setText(resultado);
@@ -96,21 +111,23 @@ public class EscalaSexta extends AppCompatActivity {
         }
         toolbar.setTitle(resultado);
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-            getMenuInflater().inflate(R.menu.escala_sexta_toolbar,menu);
+        getMenuInflater().inflate(R.menu.escala_sexta_toolbar, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 1) {
-            if(resultCode == Activity.RESULT_OK){
+            if (resultCode == Activity.RESULT_OK) {
                 retornoIntent(data);
             }
             if (resultCode == Activity.RESULT_CANCELED) {

@@ -3,53 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.EscalaSexta"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".activities.EscalaSexta">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_escala_sexta"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
         android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        android:background="?attr/colorPrimary"/>
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
-<!--         primeira linha                -->
+    <!--         primeira linha                -->
     <LinearLayout
+        android:id="@+id/escala_sexta_LL1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_sexta_LL1">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="fill_horizontal"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="100">
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Coordenador de Sexta"/>
+                android:text="Coordenador de Sexta" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:id="@+id/escala_sexta_l1"
-                android:text="Indicar"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indicar"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/ic_escala_sexta_l1"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/checkbox_blank_circle_outline"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/checkbox_blank_circle_outline" />
 
     </LinearLayout>
 
@@ -57,157 +60,169 @@
     <!--         segunda linha                -->
 
     <LinearLayout
+        android:id="@+id/escala_sexta_LL2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_sexta_LL2">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="fill_horizontal"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="100">
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Coordenador de Roteiro 1"/>
+                android:text="Coordenador de Roteiro 1" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:id="@+id/escala_sexta_l2"
-                android:text="Gabriela"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gabriela"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/ic_escala_sexta_l2"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/checkbox_marked_circle_outline"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/checkbox_marked_circle_outline" />
 
     </LinearLayout>
 
     <!--         terceira linha                -->
     <LinearLayout
+        android:id="@+id/escala_sexta_LL3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_sexta_LL3">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="fill_horizontal"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="100">
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Coordenador de Roteiro 2"/>
+                android:text="Coordenador de Roteiro 2" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:id="@+id/escala_sexta_l3"
-                android:text="Manoel"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manoel"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/ic_escala_sexta_l3"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/checkbox_blank_circle_outline"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/checkbox_blank_circle_outline" />
 
     </LinearLayout>
 
     <!--         quarta linha                -->
 
     <LinearLayout
+        android:id="@+id/escala_sexta_LL4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_sexta_LL4">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="fill_horizontal"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="100">
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Voluntários de Sexta"/>
+                android:text="Voluntários de Sexta" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:id="@+id/escala_sexta_l4"
-                android:text="Visualizar"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visualizar"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/ic_escala_sexta_l4"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_email_outline"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/ic_email_outline" />
 
     </LinearLayout>
     <!--         quinta linha                -->
     <LinearLayout
+        android:id="@+id/escala_sexta_LL5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
         android:onClick="chamaSortPeople"
-        android:id="@+id/escala_sexta_LL5">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="fill_horizontal"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="100">
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Responsável pela Harmonização"/>
+                android:text="Responsável pela Harmonização" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
                 android:id="@+id/escala_sexta_l5"
-                android:text="João"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="João"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/ic_escala_sexta_l5"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/checkbox_marked_circle_outline"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:src="@drawable/checkbox_marked_circle_outline" />
 
     </LinearLayout>
 </LinearLayout>

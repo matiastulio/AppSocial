@@ -24,7 +24,7 @@ public class GenericCardViewPage extends AppCompatActivity {
         }
 
         toolbar = (Toolbar) findViewById(R.id.toolbar_isopor_planejar);
-        if(tipo==1) {
+        if (tipo == 1) {
             toolbar.setTitle("Isopor");
             ListView lv = (ListView) findViewById(R.id.lvGenericCardview);
             lv.setClickable(false);
@@ -38,10 +38,10 @@ public class GenericCardViewPage extends AppCompatActivity {
 //            android:contextClickable="false"
 //            android:listSelector="@android:color/transparent"
 
-        }else if (tipo==2) {
+        } else if (tipo == 2) {
             toolbar.setTitle("Visualizar Roteiros");
 
-}else
+        } else
             toolbar.setTitle("Ta errado isso ai");
 
 
@@ -53,7 +53,7 @@ public class GenericCardViewPage extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.generic_cardview_toolbar,menu);
+        getMenuInflater().inflate(R.menu.generic_cardview_toolbar, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
