@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="grad.unb.br.appsocial.activities.CadastroAssistidoPage"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="grad.unb.br.appsocial.activities.CadastroAssistidoPage">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_cadastro_assistido"
         android:layout_width="match_parent"
@@ -13,190 +14,152 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome"
-        android:id="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/toolbar_cadastro_assistido"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssNome"
-        android:layout_below="@+id/textView2"
-        android:hint="Digite o Nome"
-        android:layout_alignRight="@+id/edtTxtAssSexo"
-        android:layout_alignEnd="@+id/edtTxtAssSexo"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <View
+        android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Idade"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/edtTxtAssNome"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignLeft="@+id/strut"
+        android:layout_below="@+id/TIL_1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sexo" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/strut"
+        android:layout_below="@id/TIL_1"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="5dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssIdade"
-        android:layout_below="@+id/textView3"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_toLeftOf="@+id/textView4"
-        android:layout_toStartOf="@+id/textView4"
-        android:layout_marginRight="30dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sexo"
-        android:id="@+id/textView4"
-        android:layout_below="@+id/edtTxtAssNome"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="149dp"
-        android:layout_marginEnd="149dp"
-        android:layout_marginTop="10dp" />
+        android:layout_alignRight="@+id/strut"
+        android:layout_below="@id/TIL_2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssSexo"
-        android:layout_alignBottom="@+id/edtTxtAssIdade"
-        android:layout_toRightOf="@+id/edtTxtAssIdade"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Veste" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_5"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Veste"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/edtTxtAssIdade"
-        android:layout_alignLeft="@+id/edtTxtAssIdade"
-        android:layout_alignStart="@+id/edtTxtAssIdade"
-        android:layout_marginTop="10dp" />
+        android:layout_alignLeft="@+id/strut"
+        android:layout_below="@+id/TIL_3"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calça"
-        android:id="@+id/textView6"
-        android:layout_below="@+id/edtTxtAssSexo"
-        android:layout_alignLeft="@+id/edtTxtAssSexo"
-        android:layout_alignStart="@+id/edtTxtAssSexo"
-        android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calça" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_6"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssVeste"
-        android:layout_below="@+id/textView5"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_alignRight="@+id/edtTxtAssIdade"
-        android:layout_alignEnd="@+id/edtTxtAssIdade" />
+        android:layout_below="@+id/TIL_4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssCalca"
-        android:layout_alignBottom="@+id/edtTxtAssVeste"
-        android:layout_toRightOf="@+id/edtTxtAssIdade"
-        android:layout_alignRight="@+id/edtTxtAssSexo"
-        android:layout_alignEnd="@+id/edtTxtAssSexo" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pablo" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_7"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pablo"
-        android:id="@+id/textView7"
-        android:layout_below="@+id/edtTxtAssVeste"
-        android:layout_alignLeft="@+id/edtTxtAssVeste"
-        android:layout_alignStart="@+id/edtTxtAssVeste"
-        android:layout_marginTop="10dp" />
+        android:layout_below="@+id/TIL_6"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssPablo"
-        android:layout_below="@+id/textView7"
-        android:layout_alignLeft="@+id/textView7"
-        android:layout_alignStart="@+id/textView7"
-        android:layout_alignRight="@+id/edtTxtAssCalca"
-        android:layout_alignEnd="@+id/edtTxtAssCalca" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assistência Social" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Assistência Social"
-        android:id="@+id/textView8"
-        android:layout_below="@+id/edtTxtAssPablo"
-        android:layout_alignLeft="@+id/edtTxtAssPablo"
-        android:layout_alignStart="@+id/edtTxtAssPablo"
-        android:layout_marginTop="10dp" />
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_8"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssASocial"
-        android:layout_below="@+id/textView8"
-        android:layout_alignLeft="@+id/textView8"
-        android:layout_alignStart="@+id/textView8"
-        android:layout_alignRight="@+id/edtTxtAssPablo"
-        android:layout_alignEnd="@+id/edtTxtAssPablo" />
+        android:layout_below="@+id/TIL_7"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Assistência Médica"
-        android:id="@+id/textView9"
-        android:layout_below="@+id/edtTxtAssASocial"
-        android:layout_alignLeft="@+id/edtTxtAssASocial"
-        android:layout_alignStart="@+id/edtTxtAssASocial"
-        android:layout_marginTop="10dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assistência Médica" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_9"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssAMedica"
-        android:layout_below="@+id/textView9"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
-        android:layout_alignRight="@+id/edtTxtAssASocial"
-        android:layout_alignEnd="@+id/edtTxtAssASocial" />
+        android:layout_below="@+id/TIL_8"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Observações"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/edtTxtAssAMedica"
-        android:layout_alignLeft="@+id/edtTxtAssAMedica"
-        android:layout_alignStart="@+id/edtTxtAssAMedica"
-        android:layout_marginTop="10dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTxtAssOBS"
-        android:layout_below="@+id/textView10"
-        android:layout_alignLeft="@+id/textView10"
-        android:layout_alignStart="@+id/textView10"
-        android:layout_alignRight="@+id/edtTxtAssAMedica"
-        android:layout_alignEnd="@+id/edtTxtAssAMedica" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Observações" />
+    </android.support.design.widget.TextInputLayout>
 
 
 </RelativeLayout>
