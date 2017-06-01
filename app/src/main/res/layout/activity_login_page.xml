@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".activities.LoginPage"
-    android:background="#14293E">
+    android:background="#1e3d5b">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -25,7 +25,8 @@
         android:id="@+id/btn_Cadastrar"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="novoCadastro" />
+        android:onClick="novoCadastro"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,7 +75,8 @@
         android:layout_below="@+id/txtVSenha"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textColorHint="#FDF2EE"  />
+        android:textColorHint="#FDF2EE"
+        android:fontFamily="@android:string/emptyPhoneNumber"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,7 +86,8 @@
         android:id="@+id/txtVCadastro"
         android:layout_above="@+id/btn_Cadastrar"
         android:layout_centerHorizontal="true"
-        android:textColor="#FDF2EE"/>
+        android:textColor="#FDF2EE"
+        android:textStyle="bold"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -92,6 +95,7 @@
         android:text="Entrar"
         android:id="@+id/btn_logar"
         android:layout_below="@+id/eTxt_senha"
+        android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

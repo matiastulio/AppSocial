@@ -8,6 +8,6 @@
         custom:showAsAction="always"
         android:orderInCategory="2"
         android:title="Refresh"
-        android:icon="@drawable/plus"/>
+        android:icon="@drawable/plus" />
 
 </menu>
