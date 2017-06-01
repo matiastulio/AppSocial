@@ -18,16 +18,6 @@
         android:layout_centerHorizontal="true"
         android:src="@mipmap/ic_launcher"/>
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar"
-        android:id="@+id/btn_Cadastrar"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="novoCadastro"
-        android:textStyle="bold"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,7 +40,8 @@
         android:layout_centerHorizontal="true"
         android:hint="Digite o seu email"
         android:layout_marginTop="0dp"
-        android:textColorHint="#FDF2EE" />
+        android:textColorHint="#FDF2EE"
+        android:textColor="#FDF2EE" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,18 +67,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textColorHint="#FDF2EE"
+        android:textColor="#FDF2EE"
         android:fontFamily="@android:string/emptyPhoneNumber"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Não é cadastrado?"
-        android:id="@+id/txtVCadastro"
-        android:layout_above="@+id/btn_Cadastrar"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FDF2EE"
-        android:textStyle="bold"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -101,5 +83,28 @@
         android:layout_alignParentStart="true"
         android:onClick="loginApply" />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Não é cadastrado?"
+        android:id="@+id/txtVCadastro"
+        android:layout_above="@+id/btn_Cadastrar"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FDF2EE"
+        android:textStyle="bold"/>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:id="@+id/btn_Cadastrar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="novoCadastro"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

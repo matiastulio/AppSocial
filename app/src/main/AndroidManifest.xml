@@ -38,10 +38,12 @@
         <activity
             android:name=".activities.TabActivityPage"
             android:screenOrientation="portrait" />
-        <activity android:name=".activities.SortPeopleListPage" />
         <activity
             android:name=".activities.MapsActivity"
             android:label="@string/title_activity_maps" />
+
+
+        <activity android:name=".activities.SortPeopleListPage"/>
         <activity android:name=".activities.AvisoPlanejarPage" />
         <activity android:name=".activities.EscalaSexta" />
         <activity android:name=".activities.CalendarViewPage" />

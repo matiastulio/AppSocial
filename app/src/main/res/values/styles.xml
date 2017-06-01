@@ -1,10 +1,11 @@
 <resources>
 
+
     <style name="defaultAppTheme" parent="Theme.Design.Light.NoActionBar">
         <item name="colorPrimary">#1e3d5b</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
@@ -12,7 +13,7 @@
     <style name="cadastroUserStyle" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#1e3d5b</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
@@ -20,6 +21,16 @@
     <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@android:color/white</item>
     </style>
+
+
+    <style name="actionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+
+
+
 
 
     <!-- ABAIXO EH OLD, NAO USADO -->
@@ -32,11 +43,13 @@
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
     <!--Tela com fundo preto-->
-    <style name="TabActivity" parent="Theme.Design.Light.NoActionBar">
+
+
+    <style name="tabActivity" parent="Theme.Design.Light.NoActionBar">
         <item name="colorPrimary">#1e3d5b</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
