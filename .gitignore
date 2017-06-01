@@ -11,3 +11,13 @@ idea/*
 .gradle/2.10/taskArtifacts/outputFileStates.bin
 .gradle/2.10/taskArtifacts/taskArtifacts.bin
 .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock
+.idea/libraries/firebase_analytics_9_4_0.xml
+.idea/libraries/firebase_analytics_9_4_0.xml
+.idea/libraries/firebase_auth_9_4_0.xml
+.idea/libraries/firebase_auth_common_9_4_0.xml
+.idea/libraries/firebase_storage_9_4_0.xml
+.idea/libraries/firebase_storage_common_9_4_0.xml
+.idea/libraries/firebase_storage_common_9_4_0.xml
+.idea/libraries/play_services_9_4_0.xml
+.idea/libraries/play_services_analytics_impl_9_4_0.xml
+.idea/libraries/play_services_appindexing_9_4_0.xml
