@@ -9,6 +9,8 @@ import grad.unb.br.appsocial.R;
 
 public class CadastroAssistidoPage extends AppCompatActivity {
 
+
+    //TODO: IMPLEMENTAR O BOTAO DE SALVAR ASSISTIDO
     private Toolbar toolbar;
 
     @Override

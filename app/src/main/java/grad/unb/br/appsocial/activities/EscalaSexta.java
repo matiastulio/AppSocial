@@ -15,6 +15,9 @@ import grad.unb.br.appsocial.R;
 
 public class EscalaSexta extends AppCompatActivity {
 
+
+
+    //TODO: IMPLEMENTAR O BOTAO DE ADICIONAR NOVA ESCALA
     private Toolbar toolbar;
 
     @Override

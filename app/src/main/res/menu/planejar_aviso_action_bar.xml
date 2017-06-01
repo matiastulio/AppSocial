@@ -9,7 +9,7 @@
         custom:showAsAction="always"
         android:orderInCategory="2"
         android:title="Refresh"
-        android:icon="@android:drawable/ic_menu_send"/>
+        android:icon="@drawable/send_ic"/>
 
 
 </menu>

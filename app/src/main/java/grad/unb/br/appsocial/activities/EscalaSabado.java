@@ -13,6 +13,9 @@ import grad.unb.br.appsocial.R;
 
 public class EscalaSabado extends AppCompatActivity {
 
+    //TODO: IMPLEMENTAR O BOTAO DE ADICIONAR NOVA ESCALA
+    //TODO: CORRIGIR O TITULO DA TOOLBAR
+    //TODO: IMPLEMENTAR METODO PARA PEGAR A SEMANA CORRENTE
     private Toolbar toolbar;
 
     @Override

@@ -9,6 +9,8 @@ import grad.unb.br.appsocial.R;
 
 public class LoginPage extends AppCompatActivity {
 
+    //TODO: IMPLEMENTAR A VERIFICAÇÃO DE USUARIO
+    //TODO: IMPLEMENTAR A SAIDA DESSA ACTIVITY DO STACK DE BACK
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

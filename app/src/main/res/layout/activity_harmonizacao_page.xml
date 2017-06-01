@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grad.unb.br.appsocial.activities.HarmonizacaoPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_harmonizacao_page"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/actionBarTheme"/>
+
+    <!--PASSO  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/LLHarPage_1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/toolbar_harmonizacao_page"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="checkBoxClickado">
+
+        <TextView
+            android:id="@+id/TVHarPage_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passo 1"
+            android:layout_weight=".8"/>
+        <CheckBox
+            android:id="@+id/CBHarPage_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contextClickable="true"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <!--PASSO 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/LLHarPage_2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LLHarPage_1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="checkBoxClickado">
+
+        <TextView
+            android:id="@+id/TVHarPage_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passo 1"
+            android:layout_weight=".8"/>
+        <CheckBox
+            android:id="@+id/CBHarPage_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contextClickable="true"
+            android:clickable="false" />
+
+    </LinearLayout>
+
+
+    <!--PASSO 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/LLHarPage_3"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LLHarPage_2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="checkBoxClickado">
+
+        <TextView
+            android:id="@+id/TVHarPage_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passo 1"
+            android:layout_weight=".8"/>
+        <CheckBox
+            android:id="@+id/CBHarPage_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contextClickable="true"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

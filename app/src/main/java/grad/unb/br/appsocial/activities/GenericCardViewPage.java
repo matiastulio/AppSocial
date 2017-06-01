@@ -11,6 +11,8 @@ import grad.unb.br.appsocial.R;
 public class GenericCardViewPage extends AppCompatActivity {
 
     private Toolbar toolbar;
+    //TODO: IMPLEMENTAR O CLICK NA LISTVIEW
+    //TODO: VERIFICAR O TAMANHO DA LETRA DA LISTVIEW
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

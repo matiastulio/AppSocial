@@ -1,5 +1,6 @@
 package grad.unb.br.appsocial.activities;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -97,6 +98,9 @@ public class TabActivityPage extends AppCompatActivity implements FloatingAction
     public boolean onOptionsItemSelected(MenuItem item) {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
+        }else if(item.getItemId() == R.id.notification_icon){
+            Intent saida = new Intent(this,NotificationPage.class);
+            startActivity(saida);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -12,6 +12,8 @@ public class AvisoPlanejarPage extends AppCompatActivity {
 
     private Toolbar toolbar;
 
+
+    //TODO: IMPLEMENTAR O BOTAO DE ENVIAR O AVISO
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import grad.unb.br.appsocial.R;
+import grad.unb.br.appsocial.activities.HarmonizacaoPage;
 import grad.unb.br.appsocial.activities.MapsActivity;
 import grad.unb.br.appsocial.activities.SortPeopleListPage;
 import grad.unb.br.appsocial.controllers.ListAdapterTabPage;
@@ -62,6 +63,8 @@ public class CaravanaFragment extends Fragment implements AdapterView.OnItemClic
                 getActivity().startActivity(saida);
                 break;
             case "Harmonização":
+                saida = new Intent(getActivity(),HarmonizacaoPage.class);
+                getActivity().startActivity(saida);
                 break;
             default:
                 break;
