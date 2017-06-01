@@ -34,14 +34,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:ems="10"
         android:id="@+id/eTxt_email"
         android:layout_below="@+id/txtVEmail"
         android:layout_centerHorizontal="true"
         android:hint="Digite o seu email"
         android:layout_marginTop="0dp"
         android:textColorHint="#FDF2EE"
-        android:textColor="#FDF2EE" />
+        android:textColor="#FDF2EE"
+        android:maxLines="1"
+        android:scrollHorizontally="false"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,6 +69,8 @@
         android:layout_alignParentEnd="true"
         android:textColorHint="#FDF2EE"
         android:textColor="#FDF2EE"
+        android:maxLines="1"
+        android:scrollHorizontally="false"
         android:fontFamily="@android:string/emptyPhoneNumber"/>
 
 

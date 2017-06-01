@@ -29,6 +29,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
             android:hint="Nome" />
     </android.support.design.widget.TextInputLayout>
 
@@ -51,6 +53,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
             android:hint="Sexo" />
     </android.support.design.widget.TextInputLayout>
 
@@ -67,6 +71,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="numberSigned"
+            android:scrollHorizontally="false"
             android:hint="Idade" />
     </android.support.design.widget.TextInputLayout>
 
@@ -82,6 +89,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="numberSigned"
+            android:scrollHorizontally="false"
             android:hint="Veste" />
     </android.support.design.widget.TextInputLayout>
 
@@ -97,6 +107,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="false"
+            android:inputType="numberSigned"
             android:hint="Calça" />
     </android.support.design.widget.TextInputLayout>
 
@@ -112,6 +125,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
             android:hint="Pablo" />
     </android.support.design.widget.TextInputLayout>
 
@@ -127,6 +142,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
             android:hint="Assistência Social" />
     </android.support.design.widget.TextInputLayout>
 
@@ -143,6 +160,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
             android:hint="Assistência Médica" />
     </android.support.design.widget.TextInputLayout>
 
@@ -158,6 +177,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
             android:hint="Observações" />
     </android.support.design.widget.TextInputLayout>
 
