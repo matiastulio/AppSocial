@@ -3,19 +3,28 @@ package grad.unb.br.appsocial.models;
 public class Usuarios {
 
     private int     _id;
-    private int     _telefone;
+    private String  _telefone;
     private String  _nome;
     private String  _perfil;
     private String  _email;
     private String  _senha;
 
 
+    public  Usuarios(String _nome,  String _telefone,String _email,String _senha,String _perfil){
+        this._email     = _email;
+        this._nome      = _nome;
+        this._perfil    = _perfil;
+        this._senha     = _senha;
+        this._telefone  = _telefone;
+
+    }
+
     public int get_id() {return _id;}
     public void set_id(int _id) { this._id = _id;}
 
 
-    public int get_telefone() {return _telefone;}
-    public void set_telefone(int _telefone) {this._telefone = _telefone;}
+    public String get_telefone() {return _telefone;}
+    public void set_telefone(String _telefone) {this._telefone = _telefone;}
 
 
     public String get_nome() {return _nome;}

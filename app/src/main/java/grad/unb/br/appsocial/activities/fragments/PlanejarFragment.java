@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import grad.unb.br.appsocial.R;
 import grad.unb.br.appsocial.activities.AvisoPlanejarPage;
@@ -56,11 +55,7 @@ public class PlanejarFragment extends Fragment implements ListView.OnItemClickLi
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(this.getActivity(),planejarStrings[position], Toast.LENGTH_SHORT).show();
         Intent saida;
-        //Intent saida = new Intent(getActivity(),grad.unb.br.appsocial.activities.SortPeopleListPage.class);
-        //getActivity().startActivity(saida);
-
         switch (planejarStrings[position]){
             case "Enviar Aviso":
                 saida = new Intent(getActivity(), AvisoPlanejarPage.class);
@@ -83,8 +78,6 @@ public class PlanejarFragment extends Fragment implements ListView.OnItemClickLi
             default:
                 break;
         }
-
-
     }
 
 }
