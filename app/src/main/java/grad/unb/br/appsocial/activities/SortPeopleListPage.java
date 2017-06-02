@@ -20,6 +20,9 @@ import java.util.Collections;
 import java.util.Comparator;
 
 import grad.unb.br.appsocial.R;
+import grad.unb.br.appsocial.models.Assistidos;
+import grad.unb.br.appsocial.models.Constantes;
+import grad.unb.br.appsocial.models.Usuarios;
 
 public class SortPeopleListPage extends AppCompatActivity {
 
@@ -30,6 +33,9 @@ public class SortPeopleListPage extends AppCompatActivity {
     private int itemSelecionado = -1;
     private int idDaView=-1;
     private Context contexto;
+    private Toolbar toolbar;
+    private ArrayList<Usuarios> usrs;
+    private ArrayList<Assistidos> assistidos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +47,11 @@ public class SortPeopleListPage extends AppCompatActivity {
             retorno = extras.getBoolean("retorno");
             itemSelecionado = extras.getInt("itemSelecionado");
             idDaView = extras.getInt("idDaView");
+//            usrs                = extras.get
         }
 
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_sort_people_list_view);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_sort_people_list_view);
         //toolbar.setTitle(String.valueOf(idDaView));
         setSupportActionBar(toolbar);
 
@@ -53,37 +60,70 @@ public class SortPeopleListPage extends AppCompatActivity {
 
         lvSortedPeople = (ListView) findViewById(R.id.lvSortedPeople);
 
-        peoples1 = getResources().getStringArray(R.array.planejar_fragment_array_string);
-        peoples2 = getResources().getStringArray(R.array.roteiro_fragment_array_string);
-
-        final ArrayList<String> peoples = new ArrayList<String>();
-        peoples.addAll(Arrays.asList(peoples1));
-        peoples.addAll(Arrays.asList(peoples2));
-
-        Collections.sort(peoples, new Comparator<String>() {
-            @Override
-            public int compare(String lhs, String rhs) {
-                return lhs.compareTo(rhs);
-            }
-        });
-
-        ArrayAdapter<String> laPeoples = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,peoples);
-
-        lvSortedPeople.setAdapter(laPeoples);
-        lvSortedPeople.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-        lvSortedPeople.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                retornoString = peoples.get(position);
-                if(retorno)
-                    toolbar.setTitle(retornoString);
-            }
-        });
+        sortPeopleMethod(Constantes.TYPE_USUARIO);
 
         contexto = this;
 
     }
 
+
+    public void sortPeopleMethod(int objectType){
+        if(objectType == Constantes.TYPE_ASSISTIDO){
+
+            assistidos = new ArrayList<>();
+
+            assistidos.add(new Assistidos("foo "+50));
+            for(int i=0;i<10;i++)
+                assistidos.add(new Assistidos("foo"+i));
+
+            Collections.sort(assistidos);
+            ArrayAdapter<Assistidos> adpt = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,assistidos);
+            lvSortedPeople.setAdapter(adpt);
+
+        }else if(objectType == Constantes.TYPE_USUARIO){
+
+            usrs = new ArrayList<>();
+
+            usrs.add(new Usuarios("foo "+50));
+            for(int i=0;i<10;i++)
+                usrs.add(new Usuarios("foo"+i));
+
+            Collections.sort(usrs);
+            ArrayAdapter<Usuarios> adpt = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,usrs);
+            lvSortedPeople.setAdapter(adpt);
+
+        }else if (objectType == Constantes.TYPE_STRING_ARRAY){
+
+            peoples1 = getResources().getStringArray(R.array.planejar_fragment_array_string);
+            peoples2 = getResources().getStringArray(R.array.roteiro_fragment_array_string);
+
+            final ArrayList<String> peoples = new ArrayList<>();
+            peoples.addAll(Arrays.asList(peoples1));
+            peoples.addAll(Arrays.asList(peoples2));
+
+//            Collections.sort(peoples, new Comparator<String>() {
+//                @Override
+//                public int compare(String lhs, String rhs) {
+//                    return lhs.compareTo(rhs);
+//                }
+//            });
+
+            Collections.sort(peoples);
+            ArrayAdapter<String> laPeoples = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,peoples);
+
+            lvSortedPeople.setAdapter(laPeoples);
+            lvSortedPeople.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+            lvSortedPeople.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    retornoString = peoples.get(position);
+                    if(retorno)
+                        toolbar.setTitle(retornoString);
+                }
+            });
+        }
+
+    }
 
 
     public boolean onCreateOptionsMenu(Menu menu) {

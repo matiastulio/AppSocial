@@ -1,6 +1,10 @@
 package grad.unb.br.appsocial.models;
 
-public class Usuarios {
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
+public class Usuarios implements Comparable<Usuarios>, Serializable {
 
     private int     _id;
     private String  _telefone;
@@ -17,6 +21,9 @@ public class Usuarios {
         this._senha     = _senha;
         this._telefone  = _telefone;
 
+    }
+    public Usuarios(String nome){
+        this._nome = nome;
     }
 
     public int get_id() {return _id;}
@@ -40,4 +47,14 @@ public class Usuarios {
 
     public String get_Senha() {return _senha;}
     public void set_Senha(String senha) {this._senha = senha;}
+
+    @Override
+    public int compareTo(Usuarios another) {
+        return this._nome.compareTo(another.get_nome());
+    }
+
+    @Override
+    public String toString() {
+        return this._nome;
+    }
 }

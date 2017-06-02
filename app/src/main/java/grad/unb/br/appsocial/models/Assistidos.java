@@ -3,7 +3,7 @@ package grad.unb.br.appsocial.models;
 
 import java.sql.Date;
 
-public class Assistidos {
+public class Assistidos implements  Comparable<Assistidos>{
     private int     _id;
     private char    _sexo;
     private String  _nome;
@@ -17,6 +17,9 @@ public class Assistidos {
     private int     _tmCalca;
     private int     _idade;
 
+    public Assistidos(String nome){
+        this._nome = nome;
+    }
 
     public String get_nome() { return _nome;}
     public void set_nome(String _nome) {this._nome = _nome;}
@@ -59,4 +62,15 @@ public class Assistidos {
 
     public int get_idade() {        return _idade;}
     public void set_idade(int _idade) {        this._idade = _idade;}
+
+
+    @Override
+    public String toString() {
+        return this._nome;
+    }
+
+    @Override
+    public int compareTo(Assistidos another) {
+        return this._nome.compareTo(another.get_nome());
+    }
 }

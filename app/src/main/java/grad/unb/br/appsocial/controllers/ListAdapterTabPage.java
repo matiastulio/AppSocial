@@ -42,8 +42,6 @@ public class ListAdapterTabPage extends ArrayAdapter<String> {
         ListViewImage.setImageDrawable(ImageName.getDrawable(position));
         return ListViewSingle;
 
-    };
-
-
+    }
 
 }
