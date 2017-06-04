@@ -35,3 +35,7 @@ idea/*
 .idea/libraries/cardview_v7_23_0_1.xml
 local.properties
 local.properties
+local.properties
+.idea/libraries/play_services_tasks_9_4_0.xml
+.idea/workspace.xml
+build/intermediates/dex-cache/cache.xml

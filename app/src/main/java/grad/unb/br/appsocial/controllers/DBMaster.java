@@ -6,6 +6,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBMaster extends SQLiteOpenHelper {
 
+
+    //TODO: TRANSFORMAR ESSA ACTIVITY EM CENTRAL DE DAOS
     public DBMaster(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }

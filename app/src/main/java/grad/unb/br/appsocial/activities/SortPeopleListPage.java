@@ -24,7 +24,7 @@ import grad.unb.br.appsocial.models.Assistidos;
 import grad.unb.br.appsocial.models.Constantes;
 import grad.unb.br.appsocial.models.Usuarios;
 
-public class SortPeopleListPage extends AppCompatActivity {
+public class SortPeopleListPage extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     private ListView lvSortedPeople;
     private String[] peoples1,peoples2;
@@ -36,6 +36,8 @@ public class SortPeopleListPage extends AppCompatActivity {
     private Toolbar toolbar;
     private ArrayList<Usuarios> usrs;
     private ArrayList<Assistidos> assistidos;
+    private ArrayList<String> peoples;
+    private int objectType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,15 +62,16 @@ public class SortPeopleListPage extends AppCompatActivity {
 
         lvSortedPeople = (ListView) findViewById(R.id.lvSortedPeople);
 
-        sortPeopleMethod(Constantes.TYPE_USUARIO);
+        objectType = Constantes.TYPE_USUARIO;// ESSE OBJETO VAI VIR JUNTO COM O BUNDLE
+        sortPeopleMethod(objectType);
 
         contexto = this;
 
     }
 
 
-    public void sortPeopleMethod(int objectType){
-        if(objectType == Constantes.TYPE_ASSISTIDO){
+    public void sortPeopleMethod(int typeSelected){
+        if(typeSelected == Constantes.TYPE_ASSISTIDO){
 
             assistidos = new ArrayList<>();
 
@@ -79,8 +82,10 @@ public class SortPeopleListPage extends AppCompatActivity {
             Collections.sort(assistidos);
             ArrayAdapter<Assistidos> adpt = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,assistidos);
             lvSortedPeople.setAdapter(adpt);
+            lvSortedPeople.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+            lvSortedPeople.setOnItemClickListener(this);
 
-        }else if(objectType == Constantes.TYPE_USUARIO){
+        }else if(typeSelected == Constantes.TYPE_USUARIO){
 
             usrs = new ArrayList<>();
 
@@ -91,13 +96,15 @@ public class SortPeopleListPage extends AppCompatActivity {
             Collections.sort(usrs);
             ArrayAdapter<Usuarios> adpt = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,usrs);
             lvSortedPeople.setAdapter(adpt);
+            lvSortedPeople.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+            lvSortedPeople.setOnItemClickListener(this);
 
-        }else if (objectType == Constantes.TYPE_STRING_ARRAY){
+        }else if (typeSelected == Constantes.TYPE_STRING_ARRAY){
 
             peoples1 = getResources().getStringArray(R.array.planejar_fragment_array_string);
             peoples2 = getResources().getStringArray(R.array.roteiro_fragment_array_string);
 
-            final ArrayList<String> peoples = new ArrayList<>();
+            peoples = new ArrayList<>();
             peoples.addAll(Arrays.asList(peoples1));
             peoples.addAll(Arrays.asList(peoples2));
 
@@ -113,14 +120,7 @@ public class SortPeopleListPage extends AppCompatActivity {
 
             lvSortedPeople.setAdapter(laPeoples);
             lvSortedPeople.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-            lvSortedPeople.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    retornoString = peoples.get(position);
-                    if(retorno)
-                        toolbar.setTitle(retornoString);
-                }
-            });
+            lvSortedPeople.setOnItemClickListener(this);
         }
 
     }
@@ -133,6 +133,14 @@ public class SortPeopleListPage extends AppCompatActivity {
             getMenuInflater().inflate(R.menu.generic_cardview_toolbar,menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+
+    private void chamaActivity(){
+        Intent saida = new Intent(contexto,CadastroAssistidoPage.class);
+        contexto.startActivity(saida);
+
+    }
+
     @Override
     public boolean onSupportNavigateUp() {
         Intent returnIntent = new Intent();
@@ -161,9 +169,16 @@ public class SortPeopleListPage extends AppCompatActivity {
     }
 
 
-    private void chamaActivity(){
-        Intent saida = new Intent(contexto,CadastroAssistidoPage.class);
-        contexto.startActivity(saida);
-
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        if(objectType == Constantes.TYPE_USUARIO){
+            retornoString = usrs.get(position).toString();
+        } else if (objectType == Constantes.TYPE_STRING_ARRAY) {
+            retornoString = peoples.get(position);
+        }else if (objectType == Constantes.TYPE_ASSISTIDO){
+            retornoString = assistidos.get(position).toString();
+        }
+        if(retorno)
+            toolbar.setTitle(retornoString);
     }
 }

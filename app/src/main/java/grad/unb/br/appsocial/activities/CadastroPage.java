@@ -46,5 +46,6 @@ public class CadastroPage extends AppCompatActivity {
             Log.d("'Senha Con: ",""+senhaCon.getText().toString());
         }
 
+
     }
 }
