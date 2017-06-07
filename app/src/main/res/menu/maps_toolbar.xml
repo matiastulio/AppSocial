@@ -9,6 +9,8 @@
         android:orderInCategory="1"
         android:title="Refresh"
         android:icon="@drawable/ic_plus"/>
+
+    <!--
     <item
         android:id="@+id/action_voluntarios"
         android:orderInCategory="2"
@@ -19,5 +21,6 @@
         android:orderInCategory="2"
         android:title="Histórico de registros"
         android:icon="@drawable/plus"/>
+        -->
 
 </menu>
