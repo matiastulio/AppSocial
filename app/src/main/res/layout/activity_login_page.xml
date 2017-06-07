@@ -24,7 +24,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Email"
         android:id="@+id/txtVEmail"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imVLogo"

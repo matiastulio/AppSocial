@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_add"
+        custom:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="Refresh"
+        android:icon="@drawable/ic_plus"/>
+    <item
+        android:id="@+id/action_voluntarios"
+        android:orderInCategory="2"
+        android:title="Voluntários no roteiro"
+        android:icon="@drawable/plus"/>
+    <item
+        android:id="@+id/action_registros"
+        android:orderInCategory="2"
+        android:title="Histórico de registros"
+        android:icon="@drawable/plus"/>
+
+</menu>

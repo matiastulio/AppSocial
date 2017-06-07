@@ -1,6 +1,8 @@
 package grad.unb.br.appsocial.activities;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -11,6 +13,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -23,11 +28,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import grad.unb.br.appsocial.Manifest;
 import grad.unb.br.appsocial.R;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback,LocationListener {
+public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback,LocationListener {
 
     private GoogleMap mMap;
     private LocationManager locationManager;
     private LocationListener locationListener;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +43,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar_maps_page);
+        //toolbar.setTitle(String.valueOf(idDaView));
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 
 
@@ -113,4 +127,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onProviderDisabled(String provider) {
 
     }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.maps_toolbar, menu);
+        return true;
+    }
+
 }
